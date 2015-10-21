@@ -121,10 +121,11 @@ h2 {
 	transform: translate(-50%, -50%);
 	font-size: 75px;
 	text-transform: uppercase;
+    color: white;
 }
 
 footer {
-	background-color: #CCCCFF;
+	background-color: #F2F2F2;
 	clear: both;
 	height: 10%;
 	position: relative;
@@ -136,4 +137,15 @@ footer ul {
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width:500px){
+    .cell1 {width: 100%; height: 50%}
+    .cell2 {width: 100%; height: 50%}
+    .cell3 {width: 100%; height: 50%}
+    .cell4 {width: 100%; height: 50%}
+}
+
+@media screen and (max-width:750px){
+    h2 {font-size: 45px}
 }
